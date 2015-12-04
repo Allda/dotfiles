@@ -136,3 +136,7 @@ export rpkg=/home/araszka/workspace/rpkg/src
 
 eval $(thefuck --alias)
 alias f='fuck'
+
+#ignore ORIG_HEAD when using TAB to complete command
+zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
+
