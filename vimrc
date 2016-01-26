@@ -128,6 +128,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ervandew/supertab'
+Plugin 'Valloric/YouCompleteMe'
 " airline plugin settings
 let g:airline#extensions#tabline#enabled = 1
 
