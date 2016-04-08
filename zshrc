@@ -140,3 +140,5 @@ alias f='fuck'
 #ignore ORIG_HEAD when using TAB to complete command
 zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
 
+alias brno="curl wttr.in/brno"
+alias weather='function _weather(){ curl "wttr.in/$1"; };_weather'
